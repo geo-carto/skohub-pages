@@ -1,7 +1,7 @@
 ---
 # see https://github.com/nextapps-de/flexsearch#tokenizer-prefix-search for options
 tokenizer: "full" # strict, forward, reverse, full
-custom_domain: ""
+custom_domain: "https://geo-carto.github.io/vocabularios/"
 fail_on_validation: false
 searchableAttributes:
   - "prefLabel" # you should not delete this one
@@ -12,7 +12,7 @@ searchableAttributes:
   - "definition"
 ui:
   title: "SkoHub Vocabs" # Title is mandatory
-  logo: "skohub-signet-color.svg" # Path
+  logo: "logoCSIC-IGME_250.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"

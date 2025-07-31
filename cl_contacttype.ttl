@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dt: <http://resource.geosciml.org/datatype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://geo-carto.github.io/vocabularios/contacto-tipo> a skos:ConceptScheme ;
+    dcterms:created "2025-07-29"^^xsd:date ;
+    dcterms:modified "2025-07-29"^^xsd:date ;
+    dcterms:provenance "Términos originales del estándar GeoSciML traducidos al español por el IGME" ;
+    dcterms:publisher "https://www.igme.es/" ; 
+    dcterms:source "nan" ;
+    skos:changeNote "2025-07-29. Generate SKOS encoding of vocabulary from Excel spreadsheet"@es ;
+    skos:editorialNote "Este archivo contiene el vocabulario https://geo-carto.github.io/vocabularios/contacto-tipo."@es ;
+    skos:hasTopConcept <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto>,
+    <https://geo-carto.github.io/vocabularios/contacto-tipo/contacto> ;
+    skos:prefLabel "Tipo de contacto"@es ;
+    skos:prefLabel "Contact type"@en .
+
+
