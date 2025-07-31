@@ -11,8 +11,8 @@ searchableAttributes:
   - "example"
   - "definition"
 ui:
-  title: "SkoHub Vocabs" # Title is mandatory
-  logo: "logoCSIC-IGME_250.png" # Path
+  title: "Vocabularios - Geología" # Title is mandatory
+  logo: "logoIGME.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
